@@ -86,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           value: menuItem,
                           child: Text(menuItem),
                         );
-                      },
+                       },
                     ).toList(),
                   ),
                 ],
