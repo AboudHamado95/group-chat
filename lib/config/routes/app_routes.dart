@@ -23,7 +23,7 @@ class AppRoute {
       case Routes.initialRoute:
         return materialBuilder(widget: const LoginScreen());
       case Routes.loginScreen:
-        return materialBuilder(widget: const LoginScreen());
+        return materialBuilder(widget: const LoginScreen()); 
       case Routes.registerScreen:
         return materialBuilder(widget: const RegisterScreen());
       case Routes.forgotPasswordScreen:
